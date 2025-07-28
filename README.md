@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>MedicPet | Clínica Veterinaria Guaranda</title>
   <style>
     body {
@@ -28,15 +29,20 @@
       font-weight: bold;
     }
     section {
-      padding: 40px;
+      padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
+    }
+    h2 {
+      color: #1d3557;
+      text-align: center;
     }
     .servicios, .contacto {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
       justify-content: center;
+      margin-top: 20px;
     }
     .servicio {
       background-color: white;
@@ -45,6 +51,9 @@
       padding: 20px;
       width: 250px;
       text-align: center;
+    }
+    .servicio h3 {
+      color: #e63946;
     }
     footer {
       background-color: #1d3557;
@@ -56,12 +65,14 @@
     .boton {
       background-color: #e63946;
       color: white;
-      padding: 10px 20px;
+      padding: 12px 25px;
       border: none;
       border-radius: 5px;
       font-size: 16px;
       cursor: pointer;
       text-decoration: none;
+      display: inline-block;
+      margin-top: 10px;
     }
     .boton:hover {
       background-color: #d62828;
@@ -69,18 +80,25 @@
   </style>
 </head>
 <body>
+
   <header>
     <h1>MedicPet</h1>
     <p>Clínica Veterinaria Profesional en Guaranda</p>
-  </header>  <nav>
+  </header>
+
+  <nav>
     <a href="#inicio">Inicio</a>
     <a href="#servicios">Servicios</a>
     <a href="#citas">Agendar Cita</a>
     <a href="#contacto">Contacto</a>
-  </nav>  <section id="inicio">
+  </nav>
+
+  <section id="inicio">
     <h2>Bienvenidos a MedicPet</h2>
     <p>En MedicPet nos dedicamos con pasión al cuidado de tus mascotas. Ofrecemos servicios médicos veterinarios de calidad en Guaranda, con atención profesional y cercana. También brindamos atención a domicilio.</p>
-  </section>  <section id="servicios">
+  </section>
+
+  <section id="servicios">
     <h2>Nuestros Servicios</h2>
     <div class="servicios">
       <div class="servicio">
@@ -96,15 +114,19 @@
         <p>Atención personalizada para perros, gatos y otras mascotas.</p>
       </div>
       <div class="servicio">
-        <h3>Puerta a Puerta</h3>
-        <p>¡Vamos a tu domicilio! Atención sin salir de casa.</p>
+        <h3>Atención a Domicilio</h3>
+        <p>¡Vamos a tu casa! Servicio puerta a puerta en Guaranda.</p>
       </div>
     </div>
-  </section>  <section id="citas">
+  </section>
+
+  <section id="citas">
     <h2>Agendar Cita</h2>
-    <p>Para reservar una cita, contáctanos por WhatsApp o correo. Próximamente habilitaremos agendamiento en línea.</p>
+    <p>Para reservar una cita, contáctanos por WhatsApp o correo. Muy pronto habilitaremos un sistema de reserva en línea.</p>
     <a class="boton" href="https://wa.me/593995170756" target="_blank">Agendar por WhatsApp</a>
-  </section>  <section id="contacto">
+  </section>
+
+  <section id="contacto">
     <h2>Contacto</h2>
     <div class="contacto">
       <div>
@@ -113,8 +135,11 @@
         <p><strong>Ubicación:</strong><br>Guaranda, Ecuador</p>
       </div>
     </div>
-  </section>  <footer>
+  </section>
+
+  <footer>
     <p>&copy; 2025 MedicPet | Todos los derechos reservados</p>
   </footer>
+
 </body>
 </html>
